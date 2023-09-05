@@ -47,8 +47,8 @@ export const rapidApiClient = axios.create({
 rapidApiClient.interceptors.request.use((config) => {
   const apiKey = import.meta.env.VITE_RAPID_SPOTIFY_API
 
-  config.headers['X-RapidAPI-Key'] = apiKey
-  config.headers['X-RapidAPI-Host'] = 'spotify23.p.rapidapi.com'
+  config.headers['X-RapidAPI-Key'] = d2b902ba19mshe5c4ca651591028p12ba68jsn37d258f3228c
+  config.headers['X-RapidAPI-Host'] = 'spotify-web2.p.rapidapi.com'
 
   return config
 })
